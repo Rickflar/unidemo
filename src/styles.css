@@ -1,0 +1,533 @@
+body,
+body[scheme="bright_light"],
+body[scheme="client_light"] {
+    --header_background: #FFFFFF;
+    --search_bar_background: #FFFFFF;
+    --search_bar_field_background: var(--field_background);
+    --separator_common: #FFFFFF;
+    --background_page: #FFFFFF;
+    --field_text_placeholder: var(--pocket_gray);
+    --pocket_gray: #94949A;
+    --pocket_light_gray: #f1f1f1;
+    --pocket_light_shadow: #f1f1f1;
+    --pocket_shadow: rgba(0, 0, 0, .08);
+    --pocket_blue: #D0E1FF;
+    --pocket_dark_blue: #4988F4;
+    --pocket_link: #4988F4;
+    --pocket_darkest_blue: #386BC1;
+    --accent: #4988F4;
+    --button_outline_border: #4988F4;
+    --pocket_black: #252526;
+    --pocket_purple: #A47AEB;
+    --pocket_orange: #F99755;
+    --pocket_yellow: #fdc20f;
+    --pocket_tag_border: #D1D1DA;
+    --pocket_div_border: #f3f0f0;
+    --pocket_error: #E64646;
+    --pocket_green: #6ECF59;
+    --pocket_aqua: #48A7FF;
+    --pocket_white: #FFFFFF;
+    --placeholder_icon_foreground_primary: var(--pocket_gray);
+    --pocket_modal_background: #FFFFFF;
+    --pocket_snackbar_background: #FFFFFF;
+    --search_bar_field_tint: var(--pocket_gray);
+    --background_suggestions: #FFFFFF;
+    --activity_indicator_tint: var(--pocket_gray);
+    --pocket_deadline_red: #e646462b;
+    --pocket_deadline_green: rgba(190, 238, 139, 0.25);
+    --pocket_red_button_text: var(--pocket_error);
+    --pocket_green_button_text: var(--pocket_green);
+    --icon_secondary: var(--pocket_gray);
+}
+
+body[scheme="space_gray"],
+body[scheme="client_dark"] {
+    --header_background: #1A1C21;
+    --search_bar_background: #1A1C21;
+    --header_alternate_background: var(--pocket_white);
+    --field_background: #262930;
+    --search_bar_field_background: #262930;
+    --separator_common: #1A1C21;
+    --background_page: #1A1C21;
+    --field_text_placeholder: var(--pocket_gray);
+    --pocket_gray: #717881;
+    --pocket_light_shadow: rgba(0, 0, 0, .00);
+    --pocket_shadow: rgba(0, 0, 0, .00);
+    --pocket_blue: #494E5A;
+    --pocket_dark_blue: #579fff;
+    --pocket_link: var(--pocket_dark_blue);
+    --pocket_darkest_blue: #155ace;
+    --accent: var(--pocket_dark_blue);
+    --button_outline_border: #FFFFFF;
+    --pocket_black: #FFFFFF;
+    --pocket_purple: #A47AEB;
+    --pocket_orange: #F99755;
+    --pocket_yellow: #fdc20f;
+    --pocket_light_gray: var(--pocket_white);
+    --pocket_tag_border: #616473;
+    --pocket_div_border: #262930;
+    --pocket_error: #ff4e5f;
+    --pocket_green: #6ECF59;
+    --pocket_aqua: #48A7FF;
+    --pocket_white: #262930;
+    --placeholder_icon_foreground_primary: var(--pocket_gray);
+    --pocket_modal_background: #1A1C21;
+    --pocket_snackbar_background: #262930;
+    --tabbar_inactive_icon: var(--pocket_gray);
+    --pocket_deadline_red: var(--pocket_error);
+    --pocket_deadline_green: var(--pocket_green);
+    --pocket_red_button_text: var(--pocket_black);
+    --pocket_green_button_text: var(--pocket_black);
+    --icon_secondary: var(--pocket_gray);
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('fonts/TTCommons-Regular.eot');
+    src: local('TT Commons Regular'), local('fonts/TTCommons-Regular'),
+    url('fonts/TTCommons-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTCommons-Regular.woff') format('woff'),
+    url('fonts/TTCommons-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('fonts/TTCommons-Bold.eot');
+    src: local('TT Commons Bold'), local('fonts/TTCommons-Bold'),
+    url('fonts/TTCommons-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTCommons-Bold.woff') format('woff'),
+    url('fonts/TTCommons-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons';
+    src: url('fonts/TTCommons-DemiBold.eot');
+    src: local('TT Commons DemiBold'), local('fonts/TTCommons-DemiBold'),
+    url('fonts/TTCommons-DemiBold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTCommons-DemiBold.woff') format('woff'),
+    url('fonts/TTCommons-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+a {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--pocket_link);
+    text-decoration: none;
+}
+
+a:active {
+    opacity: 0.7;
+}
+
+.Snackbar__in {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.Placeholder {
+    background: rgba(0, 0, 0, .00);
+}
+
+.ModalPage__in-wrap {
+    max-width: 768px;
+}
+
+.ModalPage__header {
+    background: var(--pocket_modal_background);
+}
+
+.ModalPage__content {
+    background: var(--pocket_modal_background);
+}
+
+.Snackbar__body {
+    background: var(--pocket_snackbar_background);
+}
+
+.Select__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: -2px
+}
+
+.Search--ios .Search__placeholder-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--pocket_gray);
+    display: flex;
+    margin-top: -2px;
+}
+
+.Search--ios .Search__input {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--pocket_black);
+    display: flex;
+    margin-top: -2px;
+}
+
+.Search--ios .Search__after-in {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.Search--android .Search__input {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--pocket_gray);
+    display: flex;
+    margin-top: -2px;
+    margin-left: -5px;
+
+}
+
+.Search--android.Search--default .Search__input {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--pocket_black);
+    display: flex;
+    margin-top: -2px;
+    margin-left: -5px;
+
+}
+
+.Button__content {
+    display: flex;
+    margin-top: -2px
+}
+
+.Button--sz-xl .Button__content {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+}
+
+.Select__container {
+    height: 40px;
+}
+
+.Input__el {
+    height: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    margin-top: -2px
+}
+
+.Textarea textarea {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    margin-top: -2px
+}
+
+.PanelHeader__right {
+    display: none;
+}
+
+.PanelHeader--ios .PanelHeader__content {
+    position: absolute;
+    max-width: 60%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.PanelHeader__content {
+    position: absolute;
+    max-width: 60%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.PanelHeader--android .PanelHeader__content {
+    position: absolute;
+    max-width: 60%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.ActionSheetItem__container {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Search--android {
+    height: 56px;
+    box-sizing: border-box;
+    width: 100%;
+    background: var(--header_background);
+    background: var(--header_background);
+}
+
+.Search--android.Search--default {
+    padding: 8px;
+    box-shadow: none;
+    position: relative;
+    z-index: 2;
+}
+
+.Search--android.Search--default .Search__container {
+    background-color: var(--field_background);
+    border-radius: 8px;
+    padding: 0 4px;
+}
+
+.Search--ios.Search--default:after {
+    display: none;
+}
+
+.Radio--ios {
+    padding: 6px 0;
+}
+
+.Radio--ios .Radio__icon {
+    border: 2px solid var(--pocket_tag_border);
+}
+
+.Radio--android {
+    padding: 6px 0;
+}
+
+.Radio--android .Radio__icon {
+    border: 2px solid var(--pocket_tag_border);
+}
+
+.Checkbox__icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    margin: 0 0 0 2px;
+    border-radius: 4px;
+    border: 2px solid var(--pocket_tag_border);
+    color: transparent;
+}
+
+.Switch--ios .Switch__pseudo {
+    border: 2px solid var(--pocket_tag_border);
+}
+
+.Switch--android .Switch__pseudo {
+    background: var(--pocket_tag_border);
+}
+
+.Tappable--ios.Tappable--active:not([disabled]):not(.TabsItem):not(.PanelHeaderButton):not(.Button):not(.PanelHeaderContent__in):not(.ActionSheetItem):not(.Banner__in) {
+    background: rgba(0, 0, 0, .00) !important;
+    transition: none;
+}
+
+.Tappable--android.Tappable--active:not([disabled]):not(.TabsItem):not(.PanelHeaderButton):not(.Button):not(.PanelHeaderContent__in) {
+    background: rgba(0, 0, 0, .00) !important;
+}
+
+.Gallery__bullets--dark .Gallery__bullet {
+    background-color: var(--pocket_dark_blue);
+}
+
+.Gallery__bullets {
+    bottom: 48px;
+}
+
+.Spinner--android {
+    color: var(--pocket_gray);
+}
+
+.header {
+    font-family: TT Commons;
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--pocket_black);
+}
+
+.header.panel {
+    margin-top: 1px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header.web {
+    margin-right: auto;
+    margin-left: 12px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.row.top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.date::first-letter {
+    text-transform: capitalize;
+}
+
+.fit {
+    min-width: 0;
+}
+
+.date.default {
+    color: var(--pocket_gray);
+}
+
+.date.selected {
+    color: var(--pocket_dark_blue);
+}
+
+.centered {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.realtime:hover {
+    cursor: pointer;
+}
+
+.pulsate {
+    background: linear-gradient(90deg, var(--header_background), var(--pocket_white), var(--header_background), var(--pocket_white));
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 2.25s ease infinite;
+    -moz-animation: Gradient 2.25s ease infinite;
+    animation: Gradient 2.25s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0 50%
+    }
+}
+
+.gridContainer {
+    display: grid;
+    grid-gap: 6px;
+}
+
+.gridContainerFill {
+    grid-template-columns: repeat(auto-fill, minmax(67px, 1fr));
+}
+
+.modalButton {
+    border: 1px solid var(--pocket_dark_blue);
+    box-sizing: border-box;
+    border-radius: 7px;
+    height: 40px;
+    color: var(--pocket_dark_blue);
+    padding: 2px 8px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalButton:active {
+    opacity: 0.5;
+}

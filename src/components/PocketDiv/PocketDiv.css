@@ -1,0 +1,21 @@
+.div{
+    margin: 12px;
+    padding: 12px;
+    background: var(--pocket_white);
+    border-radius: 10px;
+    color: var(--pocket_black);
+    -webkit-box-shadow: 0 0 5px 0 var(--pocket_light_shadow), 0 0 15px 0 var(--pocket_shadow);
+    box-shadow: 0 0 5px 0 var(--pocket_light_shadow), 0 0 15px 0 var(--pocket_shadow);
+    -moz-box-shadow: 0 0 5px 0 var(--pocket_light_shadow), 0 0 15px 0 var(--pocket_shadow);
+    border: 1px solid var(--pocket_div_border);
+}
+
+.div.map{
+    padding-top: 0px;
+}
+
+.layer{
+    position: absolute;
+    z-index: 10;
+    width: 744px;
+}

@@ -1,0 +1,31 @@
+.button {
+    white-space: nowrap;
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+}
+
+.button.selected{
+    background: var(--pocket_blue);
+    color: var(--button_outline_border);
+}
+
+.button.red{
+    background: var(--pocket_deadline_red);
+    color: var(--pocket_red_button_text);
+}
+
+.button.notselected{
+    background: rgba(var(--header_background), 0.0);
+    color: var(--pocket_gray);
+}
+
+.button:hover{
+    cursor: pointer;
+}
+

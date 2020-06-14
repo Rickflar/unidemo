@@ -1,0 +1,110 @@
+.day{
+    min-width: 100%;
+    position: relative;
+}
+
+.day.notcurrent{
+    opacity:0.5
+}
+
+.time{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.btime{
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--pocket_black);
+    margin-bottom: auto;
+}
+
+.etime{
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: auto;
+    color: var(--pocket_black);
+}
+
+.separator{
+    flex: 1;
+    align-self: stretch;
+    margin-right: 12px;
+    width: 4px;
+    border-radius: 10px;
+}
+
+.separator.purple{
+    background: var(--pocket_purple);
+}
+
+.separator.red{
+    background: var(--pocket_error);
+}
+
+.separator.orange{
+    background: var(--pocket_orange);
+}
+
+.separator.yellow{
+    background: var(--pocket_yellow);
+}
+
+.separator.green{
+    background: var(--pocket_green);
+}
+
+.separator.aqua{
+    background: var(--pocket_aqua);
+}
+
+.name{
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--pocket_black);
+}
+
+.teacher {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--pocket_gray);
+}
+
+.tag{
+    border: 1px solid var(--pocket_tag_border);
+    box-sizing: border-box;
+    border-radius: 7px;
+    color: var(--pocket_gray);
+    padding: 2px 8px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.tag.selected{
+    border: 1px solid var(--pocket_dark_blue);
+    color: var(--pocket_dark_blue);
+    cursor: pointer;
+}
+
+.tag.selected:active{
+    opacity: 0.7;
+}
+
+.tag.visible{
+    overflow: visible;
+}
+
+.tag.map{
+    margin: 3px 6px;
+}

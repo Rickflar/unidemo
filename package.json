@@ -1,0 +1,55 @@
+{
+  "name": "SUAIPocket2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://rickflar.github.io/unidemo/",
+  "scripts": {
+    "start": "cross-env PORT=10888 react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "release": "rm -rf release && cp -a beta release",
+    "beta": "GENERATE_SOURCEMAP=false react-scripts build && rm -rf beta && cp -a build beta",
+    "git": "git add . && git commit -m",
+    "postgit": "git push --all",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "react-hot-loader": "^4.9.0",
+    "react-scripts": "^3.1.2"
+  },
+  "dependencies": {
+    "@vkontakte/icons": "^1.20.2",
+    "@vkontakte/vk-bridge": "^2.1.2",
+    "@vkontakte/vk-connect": "^1.6.12",
+    "@vkontakte/vkui": "^2.30.7",
+    "axios": "^0.19.2",
+    "babel-eslint": "^10.0.3",
+    "chalk": "^2.4.2",
+    "core-js": "^3.1.4",
+    "framer-motion": "^1.10.3",
+    "gh-pages": "^3.0.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "smoothscroll-polyfill": "^0.4.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

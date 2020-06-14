@@ -1,0 +1,25 @@
+.banner{
+    margin: 12px;
+    padding: 12px;
+    background: linear-gradient(255.88deg, var(--pocket_darkest_blue) 0%, var(--pocket_dark_blue) 100%);
+    border-radius: 10px;
+    color: var(--pocket_white);
+}
+
+.banner.red{
+    background: linear-gradient(255.88deg, #C22020 0%, var(--pocket_error) 100%);
+}
+
+.bannerTitle{
+    font-family: TT Commons;
+    font-weight: bold;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.bannerSubtitle{
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #FFFFFF;
+}

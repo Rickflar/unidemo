@@ -1,0 +1,17 @@
+.sep{
+    position: relative;
+    max-width: 768px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background: var(--header_background);
+}
+
+.line{
+    height: 2px;
+    background: var(--pocket_black);
+    margin-top: 6px;
+    margin-bottom: 6px;
+}

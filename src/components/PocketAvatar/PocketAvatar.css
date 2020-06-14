@@ -1,0 +1,20 @@
+.avatar{
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    flex-shrink: 0;
+}
+
+.app{
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+    border: 1px solid var(--pocket_tag_border);
+}
+
+.default{
+    background-position: center;
+    background-size: cover;
+    flex-shrink: 0;
+}

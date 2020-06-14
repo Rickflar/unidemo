@@ -1,0 +1,23 @@
+.cell{
+    color: var(--pocket_black);
+}
+
+.cell:not(.disabled):active{
+    color: var(--pocket_dark_blue);
+    cursor: pointer;
+}
+
+.celltext{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.disabled {
+    color: var(--pocket_gray);
+    cursor: default;
+}
