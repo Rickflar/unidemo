@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "343c7f159d2da352e77f726dc18a32bb",
+    "revision": "7b08917c1cb1d7e3f959212aea09593c",
     "url": "/unidemo/index.html"
   },
   {
-    "revision": "df0fa04ee3351edda773",
+    "revision": "03e22d0cdbef42f5aefc",
     "url": "/unidemo/static/css/2.816135aa.chunk.css"
   },
   {
-    "revision": "5d1bdb884ce1eefe7f85",
-    "url": "/unidemo/static/css/main.b484077e.chunk.css"
+    "revision": "3e2ca07a2c24112afe97",
+    "url": "/unidemo/static/css/main.1d5accdb.chunk.css"
   },
   {
-    "revision": "df0fa04ee3351edda773",
-    "url": "/unidemo/static/js/2.826048cc.chunk.js"
+    "revision": "03e22d0cdbef42f5aefc",
+    "url": "/unidemo/static/js/2.206392f0.chunk.js"
   },
   {
     "revision": "c97fb91e7dd1c7b19ae67fb152a2e6b2",
-    "url": "/unidemo/static/js/2.826048cc.chunk.js.LICENSE.txt"
+    "url": "/unidemo/static/js/2.206392f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d1bdb884ce1eefe7f85",
-    "url": "/unidemo/static/js/main.d51408e8.chunk.js"
+    "revision": "3e2ca07a2c24112afe97",
+    "url": "/unidemo/static/js/main.15b1729b.chunk.js"
   },
   {
     "revision": "2f612285156d96ee78ef",
@@ -72,48 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/unidemo/static/media/TTCommons-Regular.fc6fbc1a.ttf"
   },
   {
-    "revision": "c67cc8e6e13cc207934df7bef6328888",
-    "url": "/unidemo/static/media/applewatch.c67cc8e6.png"
-  },
-  {
-    "revision": "b97779013dc9468bd271f43923c90ef8",
-    "url": "/unidemo/static/media/celebration.b9777901.png"
-  },
-  {
-    "revision": "6c53a4fb5114fb0b6ccd137df1f21035",
-    "url": "/unidemo/static/media/clock.6c53a4fb.png"
-  },
-  {
-    "revision": "aaa45e54118aed938fe6add2b4b278bb",
-    "url": "/unidemo/static/media/compass.aaa45e54.png"
-  },
-  {
     "revision": "a9323069d70278cae1e1e1b8ff7618e2",
     "url": "/unidemo/static/media/drizzle.a9323069.svg"
-  },
-  {
-    "revision": "675a7b11b80ff92acef7a3e4e5f981f8",
-    "url": "/unidemo/static/media/fear.675a7b11.png"
-  },
-  {
-    "revision": "f3cc023cd359c2c199897a3a90e8d2b0",
-    "url": "/unidemo/static/media/gear.f3cc023c.png"
   },
   {
     "revision": "a339102652d90185339edadb058a6536",
     "url": "/unidemo/static/media/hat.a3391026.png"
   },
   {
-    "revision": "d36d14bf28c48f3b9117fc61f3f92c73",
-    "url": "/unidemo/static/media/hourglass.d36d14bf.png"
-  },
-  {
     "revision": "0a88268adb34eafdd7ad9025e151e910",
     "url": "/unidemo/static/media/inst.0a88268a.png"
-  },
-  {
-    "revision": "43c1c17b2c3e06c3042782bf89290613",
-    "url": "/unidemo/static/media/loudspeaker.43c1c17b.png"
   },
   {
     "revision": "3ab7100a4567f4823577d7f91b942bcc",
@@ -128,20 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/unidemo/static/media/mist.87afbad5.svg"
   },
   {
-    "revision": "a533d7a54c15e53802d3f3f4614bd3c5",
-    "url": "/unidemo/static/media/monocle.a533d7a5.png"
-  },
-  {
     "revision": "aaa45e54118aed938fe6add2b4b278bb",
     "url": "/unidemo/static/media/nav.aaa45e54.png"
-  },
-  {
-    "revision": "99c44f9fe6b95af1cdb1f947c58ab867",
-    "url": "/unidemo/static/media/news.99c44f9f.png"
-  },
-  {
-    "revision": "b91383d644ffdc114c826eca613ee430",
-    "url": "/unidemo/static/media/oldman.b91383d6.png"
   },
   {
     "revision": "e3c10eaa09ac33add3feeac374392f3a",
@@ -160,35 +116,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/unidemo/static/media/ref.a3391026.png"
   },
   {
-    "revision": "6fd819ab96accb035cdf7cd7f5a6fd19",
-    "url": "/unidemo/static/media/sloth.6fd819ab.png"
-  },
-  {
     "revision": "a02eead437e5ae1f2d955001461a877d",
     "url": "/unidemo/static/media/snow-cloud.a02eead4.svg"
-  },
-  {
-    "revision": "9fa790a06e6653857105152bf7988c6e",
-    "url": "/unidemo/static/media/stareyes.9fa790a0.png"
-  },
-  {
-    "revision": "24c9bb8548328c1c1ebafc50a4047f73",
-    "url": "/unidemo/static/media/stopwatch.24c9bb85.png"
   },
   {
     "revision": "a98ccdbc9b064365aff9f754cfa013e5",
     "url": "/unidemo/static/media/stu.a98ccdbc.png"
   },
   {
-    "revision": "aaa210fa520f10cb6818cc81640413fe",
-    "url": "/unidemo/static/media/student.aaa210fa.png"
-  },
-  {
     "revision": "48094d12435272a333803c656e26d4f6",
     "url": "/unidemo/static/media/sunny-day.48094d12.svg"
-  },
-  {
-    "revision": "1ae0c69077a9608a2b5636fcec0e4f0b",
-    "url": "/unidemo/static/media/thumbsup.1ae0c690.png"
   }
 ]);
