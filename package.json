@@ -27,7 +27,7 @@
     "@vkontakte/vk-bridge": "^2.1.2",
     "@vkontakte/vk-connect": "^1.6.12",
     "@vkontakte/vkui": "^2.30.7",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.0.3",
     "chalk": "^2.4.2",
     "core-js": "^3.1.4",
